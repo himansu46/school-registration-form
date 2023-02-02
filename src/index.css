@@ -1,13 +1,41 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: DarkSlateGrey;
+}
+.mainBox {
+  align-items: center;
+  margin-top: 1%;
+  margin-left: 25%;
+  width: 50%;
+  height: 50%;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #d3d3d3;
+}
+.studentBox {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #816b6b;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input {
+  border-radius: 4px;
+}
+select {
+  border-radius: 4px;
+}
+button {
+  margin-left: 44%;
+  border-radius: 4px;
+  padding: 5px;
+  margin-bottom: 6px;
+}
+.error {
+  color: rgb(172, 19, 19);
+  font-weight: 500;
+}
+.emptyerror {
+  color: rgb(172, 19, 19);
+  font-weight: 500;
+  text-align: center;
+  font-size: large;
 }
